@@ -40,32 +40,32 @@ window.onclick = function (e) {
 /*---------------------slider------------------------*/
 
 
-let images = document.querySelectorAll('.slider__item');
-let current = 0;
+// let images = document.querySelectorAll('.slider__item');
+// let current = 0;
 
-function slider() {
-	for (let i = 0; i < images.length; i++) {
-		images[i].classlist.add('opacity0');
-	}
-	images[current].classlist.remove('opacity0');
-}
+// function slider() {
+// 	for (let i = 0; i < images.length; i++) {
+// 		images[i].classlist.add('opacity0');
+// 	}
+// 	images[current].classlist.remove('opacity0');
+// }
 
-document.querySelector('.body-pets__round').onclick = function () {
-	if (current - 1 == -1) {
-		current = images.lemght - 1;
-	}
-	else {
-		current--;
-	}
-	slider();
-};
-document.querySelector('.body-pets__round_right').onclick = function () {
-	if (current + 1 == images.lenght) {
-		current = 0;
-	}
-	else {
-		current++;
+// document.querySelector('.body-pets__round').onclick = function () {
+// 	if (current - 1 == -1) {
+// 		current = images.lemght - 1;
+// 	}
+// 	else {
+// 		current--;
+// 	}
+// 	slider();
+// };
+// document.querySelector('.body-pets__round_right').onclick = function () {
+// 	if (current + 1 == images.lenght) {
+// 		current = 0;
+// 	}
+// 	else {
+// 		current++;
 
-	}
-	slider();
-};
+// 	}
+// 	slider();
+// };
